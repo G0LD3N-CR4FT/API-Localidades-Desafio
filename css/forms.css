@@ -1,0 +1,18 @@
+.forms {
+    border: solid 3px #000000;
+    border-radius: 20px;
+    padding: 30px;
+    justify-content: center;
+    background-color: darkcyan;
+    color: aquamarine;
+}
+
+.titulo {
+    font-size: 60px;
+    font-weight: bold;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 5px;
+    color:mediumaquamarine;
+}
+

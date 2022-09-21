@@ -6,22 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seleção Estado e Cidade</title>
     <link rel = "stylesheet" href = "css/bootstrap.css">
+    <link rel = "stylesheet" href = "css/forms.css">
 </head>
 <body>
-    <div class ="container-fluid">
-        <div class="col-12 col-sm-12 col-md-12">
+    <div class ="container color">
+        <div class="row text-center mt-5 forms">
+            <div class="titulo">
+                Pesquisa sobre local
+            </div>
+            <div class="container">
+            <div class="row">
+        <div class="col-12 col-sm-6 col-md-6">       
             <h1>Selecione seu Estado:</h1>
+            <h3>
             <select class="form-select mt-3" id="estado" aria-label="Default select example">
                 <option  disabled selected>Selecione sua UF</option>
               </select>
-        </div>
-        <div id="aparecer" class="col-12 col-sm-12 col-md-12 mt-3">
+            </h3>
+            </div>
+        <div id="aparecer" class="col-12 col-sm-6 col-md-6">
             <h1>Agora selecione sua Cidade:</h1>
+            <h3>
             <select class="form-select mt-3" id="cidade" aria-label="Default select example">
+            </h3>
               </select>
         </div>
-    </div>
-    </select>
+</div>
+</div>
+</div>
+</div>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/api.js"></script>
